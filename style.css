@@ -1,100 +1,59 @@
-
-*{
-    background: #000;
-    padding: 10px;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-.main{
-    background-color:#000;
-    margin: 10px;
-    padding: 30px;
-    height: 600px;
-    display: flex;
-    flex-flow: row wrap;
-    
-    
-}
-
-.logo{
+body {
     color: white;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
 }
-
-.div1{
-    background-color:#000;
-    margin: 5px;
-    width: 400px;
-
-}
-
-.menu{
-    background-color: #000 ;
-    margin: 5px;
-    width: 400px;
-    height: 70px;
-}
-
-ul{
-
-    display: flex;
-    justify-content: center;
-    float: left;
-    align-items: center;
-}
-
-
-
-a:link, a:visited{
-    text-decoration: none;
-    color: white;
-}
- 
-a:active, a:hover{
-    text-decoration: none;
-    color: blueviolet;
-}
-
-.content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: #fff;
-    position: relative;
-    top: 20%;
-    left: 30%;
-    
-}
-
-.content h2{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    text-align: left;
-    
-}
-
-.content .cn{
-    width: 160px;
-    height: 40px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 10px;
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-
-
-.icon ul{
-    background: #fff;
-}
-
-li a i{
-    color: #dbd8d7;
+.nav-bar {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+.links ul, .icon ul{
+    display: flex;
+    flex-direction: row;
+    align-self: self-end;
+    gap: 60px;
+}
+.icon ul{
+    gap: 30px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 240px;
+}
+h1{
+    font-size: 72px;
+    font-weight: 700px;
+}
+p {
+    font-size: 20px;
+    font-weight: 300px;
+}
+button {
+    width: 150px;
+    height: 45px;
+    border-radius: 60px;
 }
