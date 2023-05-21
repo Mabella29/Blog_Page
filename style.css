@@ -21,7 +21,7 @@ body {
 }
 .links ul, .icon ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     align-self: self-end;
     gap: 60px;
 }
@@ -164,7 +164,7 @@ p {
         
     }
     .btn3:hover{
-        color: orange;
+        background: orange;
     }
     .Form{
         width: 300px;
@@ -215,3 +215,27 @@ p {
         font-size: 40px;
         text-align: justify;
     }
+    .content8{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 200px;
+        text-align: justify;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .div1{
+        margin-left: 30px;
+    }
+    .div1 h4{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .div3{
+        margin-right: 30px;
+    }
+   
