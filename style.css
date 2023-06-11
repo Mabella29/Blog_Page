@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    text-align: center; 
 }
 .nav-bar {
     display: flex;
@@ -18,6 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px 40px;
+
 }
 .links ul, .icon ul{
     display: flex;
@@ -70,162 +71,270 @@ span {
     display: flex;
     gap: 40px;
     flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 40px;
+    margin-top: 200px;
+}
+
+.main .image{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
     
-    }
+.content2 h4{
+    margin-top: 30px;
+}
+
+
+
+.btn2{
+    width: 140px;
+    height: 40px;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: 300px;
+    margin-left: 30px;
     
-    .main{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 40px;
-        margin-top: 200px;
-    }
+}
+.content p{
+    margin-right: 30px;
+}
+.content3{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main1{
+   margin-top: 150px; 
+   text-align: justify;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main2{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.main3{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content5{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight:700;
+    text-align: center;
+}
+.btn3{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
     
-    .main .image{
-        display: flex;
-        justify-content: space-evenly;
-        gap: 40px;
-    }
-        
-    .content2 h1{
-        margin-top: 30px;
-    }
-    
-    
-    
-    .btn2{
-        width: 140px;
-        height: 40px;
-        border-radius: 60px;
+}
+.btn3:hover{
+    background: orange;
+}
+.Form{
+    width: 60%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.Form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.Form textarea{
+    width: 230px;
+    height: 200px;
+}
+.main4{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn4{
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+} 
+.btn4:hover{
+    background: aqua;
+}
+.content6 {
+    text-align: justify;
+}
+.content6 h4{
+    margin-top: 70px;
+    font-size: 30px;
+}
+.content6 h5{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.content7 p{
+    margin-top: 50px;
+    text-align: justify;
+}
+.content7 h1{
+    font-size: 40px;
+    text-align: justify;
+}
+.content8{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.div1 h4{
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .links {
+        display: none;
     }
 
-    .content{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-    }
-    
-    .content h1{
-        font-size: 40px;
-        font-weight: 300px;
-        margin-left: 30px;
-        
-    }
-    .content p{
-        margin-right: 30px;
+    .icon {
+        display: none;
     }
 
-    .content3{
-        text-align: left;
-        margin-top: 100px;
-        margin-left: 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-        
+    .main {
+        flex-direction: column;
+        padding: 20px;
     }
 
-    .main1{
-       margin-top: 150px; 
-       text-align: justify;
-    }
 
-    .images{
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-    }
-    .main2{
-        margin-top: 200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 50px;
-    }
-    .main3{
-        margin-top: 150px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: justify;
-        
-        
-    }
-    .content5{
-        
-    }
-    .btn3{
-        width: 150px;
-        height: 50px;
-        border-radius: 40px;
-        
-    }
-    .btn3:hover{
-        color: orange;
-    }
-    .Form{
-        width: 300px;
-        height: 230px;
+    .image {
         display: flex;
         flex-direction: column;
-       
-    }
-    .Form input{
-        width: 240px;
-        height: 30px;
-        background: transparent;
-        border-radius: 10px;
-        justify-content: space-between;
-    }
-    .Form textarea{
-        width: 240px;
-        height: 200px;
-    }
-    .main4{
-        margin-top: 250px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .btn4{
-        width: 150px;
-        height: 50px;
-        border-radius: 60px;
-    }
-    .content6 {
-        text-align: justify;
-    }
-    .content6 h4{
-        margin-top: 70px;
-        font-size: 30px;
     }
 
-    .content6 h5{
-        margin-top: 50px;
-        font-size: 30px;
-    }
-    .content7 p{
-        margin-top: 50px;
-        text-align: justify;
-    }
-    .content7 h1{
-        font-size: 40px;
-        text-align: justify;
+    .content2{
+        gap: 0px;
     }
 
-    .content8{
+    .main p {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+
+    .main span {
+        line-height: 40px;
+    }
+
+    .btn2 {
+        margin-top: 60px;
+    }
+
+    .image img {
+        width: 350px ;
+        height: 300px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content3{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .images img {
+        width: 400px;
+        height: 180;
+        padding-right: 50px;
+    }
+
+    .main2 {
+        flex-direction: column;
+    }
+    .main2 img {
+        width: 410px;
+        height: 250px;
+        padding: 10px;
+    }
+    .main3{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+    .content8 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
         text-align: justify;
-        justify-content: space-between;
-        margin-top: 200px;
+        padding-left: 30px;
     }
-    .div1 h4{
-        margin-top: 40px;
+    .main4 {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
     }
-    .div1{
-        margin-left: 30px;
+    .btn4 {
+        position: relative;
+        top: 30px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
     }
+    .content7 {
+        position: relative;
+        top: 30px;
+    }
+    .content5 {
+        width: 200px;
+    }
+    .Form input {
+        width: 230px;
+        height: 60px;
+    }
+
+    .content {
+        padding-left: 30px;
+        gap: 30px;
+    }
+
+     
+}
